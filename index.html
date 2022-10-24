@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/index.css">
+    <link rel="shortcut icon" href="/assets/img/cloud.png" type="image/x-icon">
+    <title>CLIMAPP</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>CLIMAPP</h1>
+            <img src="/assets/img/cloud.png" alt="">
+        </div>
+        <ul>
+            <li>
+                <a>
+                    <img src="/assets/img/api.png" alt="api">
+                    <h5>Conoce la APi</h5>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <img src="/assets/img/contact.png" alt="contacto">
+                    <h5>Contactame</h5>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <img src="/assets/img/github.png" alt="contacto">
+                    <h5>Mira el Codigo</h5>
+                </a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <div class="Busqueda">
+            <!-- <form type="submit" action=""> -->
+                <input id='city' type="text" placeholder="Digital el nombre de tu Ciudad" class="input-ciudad">
+                <button type='submit' class="button-busqueda">Consultar!!!</button>
+            <!-- </form> -->
+        </div>
+        <div id="app" class="cards-container">
+            
+        </div>
+    </main>
+    <script type="module" src="./src/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+}
+
+body{
+    margin: 0 auto;
+    max-width: 1128px;
+}
+
+main {
+    margin: 50px 80px;
+  }
+
+header {
+    margin: 50px 80px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+header .logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+header .logo h1{
+    color:midnightblue;
+    font-size: 40px;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    gap: 18px;
+}
+
+header ul li a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.busqueda{
+    display: flex;
+    flex-direction: rows;
+}
+
+.input-ciudad{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    background:rgba(17, 25, 64, 0.1)
+}
+
+input:focus,
+input:hover{
+    background: rgba(17, 25, 64, 0.2);
+}
+
+
+.button-busqueda{
+    width: 200px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: midnightblue;
+    color: aliceblue;
+}
+
+.button-busqueda:hover{
+    transform: scale(1.1);
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:35px;
+    margin-top: 67px;
+
+}
+
+.card{
+    position: relative;
+    padding: 18px;
+    width: 180px;
+    height: 227px;
+    background-color: lightslategrey;
+    border-radius: 10px;
+    color:aliceblue;
+    
+}
